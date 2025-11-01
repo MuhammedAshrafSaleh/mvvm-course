@@ -19,6 +19,7 @@ flutter:
 
   assets:
     - assets/fonts/
+    - assets/images/splash_logo.png
   fonts:
       - family: Montserrat
         fonts:
@@ -26,7 +27,7 @@ flutter:
             weight: 700
           - asset: assets/fonts/Montserrat-SemiBold.ttf
             weight: 600
-          - asset: assets/fonts/Montserrat-Medium.ttf
+          - asset: assets/fonts/Montserrat-Mediu1m.ttf
             weight: 500
           - asset: assets/fonts/Montserrat-Regular.ttf
             weight: 400
