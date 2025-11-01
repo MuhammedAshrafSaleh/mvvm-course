@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mvvm_course/presentation/theme_manager.dart';
+import 'package:mvvm_course/presentation/resources/theme_manager.dart';
 
 class MyApp extends StatefulWidget {
   // Named Constructor
