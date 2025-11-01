@@ -77,5 +77,46 @@ ThemeData getAppTheme() {
     ),
 
     // input decoration theme (text form field)
+    inputDecorationTheme: InputDecorationTheme(
+      contentPadding: EdgeInsets.all(AppPadding.p8),
+      hintStyle: getRegularStyle(
+        color: ColorManager.grey,
+        fontSize: FontSize.s14,
+      ),
+      labelStyle: getRegularStyle(
+        color: ColorManager.grey,
+        fontSize: FontSize.s14,
+      ),
+      errorStyle: getRegularStyle(
+        color: ColorManager.error,
+        fontSize: FontSize.s14,
+      ),
+      // Enable Border Style
+      enabledBorder: OutlineInputBorder(
+        borderSide: BorderSide(
+          color: ColorManager.primary,
+          width: AppSize.s1_5,
+        ),
+        borderRadius: BorderRadius.all(Radius.circular(AppSize.s8)),
+      ),
+      // Focus Border Style
+      focusedBorder: OutlineInputBorder(
+        borderSide: BorderSide(color: ColorManager.grey, width: AppSize.s1_5),
+        borderRadius: BorderRadius.all(Radius.circular(AppSize.s8)),
+      ),
+      // Focus Error Border Style
+      focusedErrorBorder: OutlineInputBorder(
+        borderSide: BorderSide(
+          color: ColorManager.primary,
+          width: AppSize.s1_5,
+        ),
+        borderRadius: BorderRadius.all(Radius.circular(AppSize.s8)),
+      ),
+      // Error Border Style
+      errorBorder: OutlineInputBorder(
+        borderSide: BorderSide(color: ColorManager.error, width: AppSize.s1_5),
+        borderRadius: BorderRadius.all(Radius.circular(AppSize.s8)),
+      ),
+    ),
   );
 }
