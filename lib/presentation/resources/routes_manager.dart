@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:mvvm_course/presentation/forget_password/forget_password_view.dart';
 import 'package:mvvm_course/presentation/login/login_view.dart';
 import 'package:mvvm_course/presentation/main/main_view.dart';
+import 'package:mvvm_course/presentation/onboarding/onboarding_view.dart';
 import 'package:mvvm_course/presentation/register/register_view.dart';
 import 'package:mvvm_course/presentation/resources/strings_manager.dart';
 import 'package:mvvm_course/presentation/splash/splash_view.dart';
@@ -12,6 +13,7 @@ class Routes {
   static const String loginRoute = "/login";
   static const String registerRoute = "/register";
   static const String forgetPasswordRoute = "/forgetPassword";
+  static const String onBoarding = "/onBoarding";
   static const String mainRoute = "/main";
   static const String storeDetailsRoute = "/storeDetails";
 }
@@ -27,6 +29,8 @@ class RouteGenerator {
         return MaterialPageRoute(builder: (_) => const RegisterView());
       case Routes.forgetPasswordRoute:
         return MaterialPageRoute(builder: (_) => const ForgetPasswordView());
+      case Routes.onBoarding:
+        return MaterialPageRoute(builder: (_) => const OnboardingView());
       case Routes.mainRoute:
         return MaterialPageRoute(builder: (_) => const MainView());
       case Routes.storeDetailsRoute:
