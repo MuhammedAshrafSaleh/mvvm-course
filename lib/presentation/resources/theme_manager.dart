@@ -55,8 +55,8 @@ ThemeData getAppTheme() {
     // Here I should make the theme looks like each other
     textTheme: TextTheme(
       displayLarge: getMediumStyle(
-        color: ColorManager.white,
-        fontSize: FontSize.s22,
+        color: ColorManager.grey,
+        fontSize: FontSize.s18,
       ),
       headlineLarge: getSemiBoldStyle(
         color: ColorManager.darkGrey,

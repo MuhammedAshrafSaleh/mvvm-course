@@ -1,5 +1,6 @@
 class AppStrings {
   static const String noRouteFound = "No Route Found";
+  static const String skip = "Skip";
 
   static const String onBoardingTitle1 = "Discover Your Workflow";
   static const String onBoardingSubTitle1 =
